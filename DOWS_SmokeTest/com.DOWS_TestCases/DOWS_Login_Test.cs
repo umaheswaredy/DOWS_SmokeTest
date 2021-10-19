@@ -62,11 +62,11 @@ namespace DOWS_SmokeTest.com.DOWS_TestCases
         [Test, Order(3)]
         public void Curriculum_Page()
         {
-           /* DOWS_Login_Page lpage = new DOWS_Login_Page();
+            DOWS_Login_Page lpage = new DOWS_Login_Page();
             lpage.Curriculum_tab();
             test = extent.StartTest("Click Curriculum tab");
             test.Log(LogStatus.Info, "Click Curriculum Tab");
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);*/
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         }
 
 
